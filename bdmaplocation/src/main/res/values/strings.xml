@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BDMapLocation</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_tb_title">百度地图</string>
+    <string name="home_btn_text">定位</string>
+    <string name="home_tv_text">当前位置:</string>
+
+</resources>
