@@ -25,17 +25,6 @@
     <meta-data
        		android:name="com.baidu.lbsapi.API_KEY"
           android:value="**************" /> <!-- 需要申请 -->
-##添加服务
-
-<service
-     android:name="com.baidu.location.f"
-     android:enabled="true"
-     android:process=":remote" >
-     <intent-filter>
-          <action android:name="com.baidu.location.service_v2.2" />
-     </intent-filter>
-</service>
-
 #build.gradle
 ##读取lib目录下.so文件
     task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
