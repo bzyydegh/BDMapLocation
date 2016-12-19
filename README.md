@@ -1,7 +1,7 @@
 # bdmaplocation
 基于百度地图API实现定位功能
-#AndroidManifest.xml
-##添加权限
+# AndroidManifest.xml
+## 添加权限
     <!-- 这个权限用于进行网络定位-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <!-- 这个权限用于访问GPS定位-->
@@ -20,13 +20,13 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- SD卡读取权限，用户写入离线定位数据-->
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
-##添加app-key
+## 添加app-key
     <!-- meta-data需要写在application中 -->
     <meta-data
        		android:name="com.baidu.lbsapi.API_KEY"
           android:value="**************" /> <!-- 需要申请 -->
-#build.gradle
-##读取lib目录下.so文件
+# build.gradle
+## 读取lib目录下.so文件
     task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
         destinationDir file("$projectDir/libs")
         baseName "Native_Libs2"
